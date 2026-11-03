@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+desktop.ini
+# a GraphRAG index (graphrag_munka/output) a repóban van; az LLM-gyorsítótár és a naplók nem
+graphrag_munka/cache/
+graphrag_munka/logs/

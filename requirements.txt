@@ -1,0 +1,10 @@
+# RAG labor – Python 3.11–3.13 (a graphrag még nem támogatja a 3.14-et)
+#   python -m venv .venv  &&  .venv\Scripts\activate   (Linux/macOS: source .venv/bin/activate)
+#   pip install -r requirements.txt
+python-dotenv>=1.0
+pypdf>=6.0
+langchain-openai>=1.7
+langchain-text-splitters>=1.1
+rank-bm25>=0.2.2
+PyStemmer>=2.2
+graphrag==3.3.0
